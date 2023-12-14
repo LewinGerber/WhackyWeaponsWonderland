@@ -1,3 +1,3 @@
 # WhackyWeaponsWonderland
 WhackyWeaponsWonderland Minecraft Mod.
-Simon mach mal
+Simon mach mal!
