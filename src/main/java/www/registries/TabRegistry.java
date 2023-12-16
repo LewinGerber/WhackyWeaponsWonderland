@@ -45,6 +45,7 @@ public class TabRegistry {
     private static CreativeModeTab.DisplayItemsGenerator getItemsForModTab() {
         return (parameters, output) -> {
             output.accept(ItemRegistry.SAPPHIRE.get());
+            output.accept(ItemRegistry.BLASTER.get());
         };
     }
 }
