@@ -16,6 +16,11 @@ run/
 .idea/**/dictionaries
 .idea/**/shelf
 
+.idea/**/runClient.xml
+.idea/**/runData.xml
+.idea/**/runGameTestServer.xml
+.idea/**/runServer.xml
+
 # AWS User-specific
 .idea/**/aws.xml
 
