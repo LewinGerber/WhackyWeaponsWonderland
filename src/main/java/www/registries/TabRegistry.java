@@ -18,7 +18,7 @@ public class TabRegistry {
     private static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
     
-    private static final RegistryObject<CreativeModeTab> MOD_TAB = add("mod_tab", () -> createModTab());
+    private static final RegistryObject<CreativeModeTab> MOD_TAB = add("mod_tab", TabRegistry::createModTab);
 
     public static void register(IEventBus bus) {
         bus.addListener(TabRegistry::addToDefaultCreativeTab);
