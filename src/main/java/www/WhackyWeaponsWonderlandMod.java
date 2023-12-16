@@ -1,6 +1,6 @@
-package com.example.whackyweaponswonderland;
+package www;
 
-import com.example.whackyweaponswonderland.item.ModItems;
+import www.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;

@@ -1,6 +1,6 @@
-package com.example.whackyweaponswonderland.item;
+package www.item;
 
-import com.example.whackyweaponswonderland.WhackyWeaponsWonderlandMod;
+import www.WhackyWeaponsWonderlandMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
