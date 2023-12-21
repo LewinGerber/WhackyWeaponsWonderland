@@ -46,6 +46,7 @@ public class TabRegistry {
         return (parameters, output) -> {
             output.accept(ItemRegistry.SAPPHIRE.get());
             output.accept(ItemRegistry.BLASTER.get());
+            output.accept(ItemRegistry.RUBY.get());
         };
     }
 }

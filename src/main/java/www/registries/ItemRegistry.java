@@ -16,6 +16,7 @@ public class ItemRegistry {
 
     public static final RegistryObject<Item> SAPPHIRE = add("sapphire", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BLASTER = add("blaster", () -> new Blaster(new Item.Properties()));
+    public static final RegistryObject<Item> RUBY = add("ruby", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
