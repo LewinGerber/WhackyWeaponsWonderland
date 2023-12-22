@@ -48,7 +48,7 @@ public class TabRegistry {
             output.accept(ItemRegistry.SAPPHIRE.get());
             output.accept(ItemRegistry.BLASTER.get());
             output.accept(ItemRegistry.RUBY.get());
-            output.accept(BlockRegistry.RUBY_BLOCK.get());
+            // output.accept(BlockRegistry.RUBY_BLOCK.get());
         };
     }
 }
