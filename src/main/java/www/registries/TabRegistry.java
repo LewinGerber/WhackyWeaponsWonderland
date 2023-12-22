@@ -4,6 +4,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -47,6 +48,7 @@ public class TabRegistry {
             output.accept(ItemRegistry.SAPPHIRE.get());
             output.accept(ItemRegistry.BLASTER.get());
             output.accept(ItemRegistry.RUBY.get());
+            output.accept(BlockRegistry.RUBY_BLOCK.get());
         };
     }
 }

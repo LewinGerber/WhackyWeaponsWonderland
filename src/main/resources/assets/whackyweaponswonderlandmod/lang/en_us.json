@@ -1,5 +1,7 @@
 {
   "item.whackyweaponswonderlandmod.sapphire": "FancyCat",
   "item.whackyweaponswonderlandmod.blaster": "Blaster",
-  "item.whackyweaponswonderlandmod.ruby": "Ruby"
+  "item.whackyweaponswonderlandmod.ruby": "Ruby",
+
+  "block.whackyweaponswonderlandmod.ruby_block": "Ruby Block"
 }
