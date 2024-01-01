@@ -1,4 +1,7 @@
-{ "variants": {
-  "": { "models": "whackyweaponswonderlandmod:block/ruby_block" }
-}
+{
+  "variants": {
+    "": {
+      "model": "whackyweaponswonderlandmod:block/ruby_block"
+    }
+  }
 }
